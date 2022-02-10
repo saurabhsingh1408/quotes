@@ -1,11 +1,11 @@
-package main
+package quotes
 
-import "fmt"
+/*
+Delete a tag
+ git tag -d release/aug2002
 
-func main() {
-	fmt.Println(Favs())
-}
-
+  git push origin :refs/tags/release/aug2002
+*/
 func Favs() []string {
-	return []string{"Apple", "Banana", "Orange"}
+	return []string{"Love For All, Hatred For None.", "Change the world by being yourself.", "Every moment is a fresh beginning."}
 }
